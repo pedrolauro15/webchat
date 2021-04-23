@@ -1,6 +1,5 @@
 import React from "react";
-import { ThemeProvider as Provider } from "styled-components";
-import { DefaultTheme } from "../../styled";
+import { DefaultTheme, ThemeProvider as Provider } from "styled-components";
 import { dark } from "../styles/themes/dark";
 import { light } from "../styles/themes/light";
 import Cookies from "js-cookie";
