@@ -9,6 +9,8 @@ declare module "styled-components" {
       heading: string;
       text: string;
       lighter: string;
+      contrast: string;
+      span: string;
     };
   }
 }

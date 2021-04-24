@@ -16,4 +16,8 @@ export const GlobalStyles = createGlobalStyle`
   *, input, :no-button, body {
     font-family: 'Poppins', sans-serif;
   }
+
+  *, ul {
+    list-style: none;
+  }
 `;

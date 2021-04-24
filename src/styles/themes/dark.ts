@@ -6,5 +6,7 @@ export const dark = {
     heading: "#FFFFFF",
     text: "#6B6B6B",
     lighter: "#676767",
+    contrast: "#000",
+    span: "#2323230",
   },
 };
