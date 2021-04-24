@@ -42,7 +42,7 @@ export const Navigation = styled.nav`
 
 export const Navigatable = styled.li<NavigatableStyleProps>`
   color: ${(props) => props.theme.colors.lighter};
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   font-weight: 500;
   text-transform: uppercase;
   display: flex;
@@ -52,7 +52,7 @@ export const Navigatable = styled.li<NavigatableStyleProps>`
   padding-left: 1.5rem;
   cursor: pointer;
   position: relative;
-  transition: all 0.2s ease;
+  transition: color 0.2s ease;
   &::after {
     content: "";
     position: absolute;
@@ -68,6 +68,7 @@ export const Navigatable = styled.li<NavigatableStyleProps>`
     props.selected &&
     css`
       color: ${props.theme.colors.primary};
+      font-weight: 600;
       &::after {
         background-color: ${props.theme.colors.primary};
       }

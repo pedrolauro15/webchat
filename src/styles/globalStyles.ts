@@ -7,6 +7,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     border: 0;
     outline: 0;
+    line-height: 1;
   }
 
   #root, body, html {

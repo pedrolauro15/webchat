@@ -8,7 +8,7 @@ export const Container = styled.div`
   grid-template-columns: 2fr 5fr 5fr;
   grid-template-rows: auto 1fr;
   grid-template-areas:
-    "MENU PAGE_HEADER PAGE_HEADER"
+    "MENU PAGE_HEADER ANY_SPACE"
     "MENU CHATS CHAT";
   grid-gap: 1.5rem;
 `;
